@@ -12,7 +12,7 @@ var TWITTER_ACCESS_TOKEN = '981580668235911168-zy4q2D7fFKxCvaM2wfqKrLDqspUQ6rV';
 var TWITTER_ACCESS_TOKEN_SECRET = 'rHPpTmPAePsZB0QYEihfTAjvPMmXULlF8Ve0mi8at67V3';
 
 /* Set Twitter search phrase */
-var TWITTER_SEARCH_PHRASE = '#resistance OR #theresistance';
+var TWITTER_SEARCH_PHRASE = '#bluewave OR #bluewave2018';
 
 var Twit = require('twit');
 
@@ -75,7 +75,7 @@ function BotRetweet() {
 }
 
 /* Set an interval of 30 minutes (in microsecondes) */
-setInterval(BotRetweet, 5*60*1000);
+setInterval(BotRetweet, 30*60*1000);
 
 /* Initiate the Bot */
 BotInit();
